@@ -1,14 +1,48 @@
 <!doctype html>
 <html lang="en">
   <head>
+      <style>
+ul {
+    margin: center;
+    list-style-type: none;
+    padding: 0;
+    width: 100px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+</style>
     <meta charset="utf-8">
     <title>Home</title>
   </head>
-  <body>
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    
-    <h1>This is my test Home Page!</h1>
-    <img src="Images/BlackSand.jpg" height="250">
-  </body>
+  <body style="background-color:#008B8B;">
+   <center><a href="index.html">Home</a></center>
+   <center><a href="portfolio.html">Portfolio</a></center>
+   <center><h1>ROHAN FULLWOOD</h1></center>
+   <center><img src="Images/BlackSand.jpg" height="250"></center>
+  <p></p>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="http://www.bbc.com/news/world">News</a></li>
+  <li><a href="https://www.youtube.com/">Youtube</a></li>
+  <li><a href="portfolio.html">About</a></li>
+</ul>
+
+</body>
 </html>
